@@ -5,7 +5,7 @@ html {
     padding: 0.5em;
     gap: 5px;
     background-color: black;
-    
+        
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -14,6 +14,7 @@ header {
     background-color:blue;
     padding: 1em;
     color: aliceblue;
+    justify-content: space-between;
     
 }
 .hero { 
@@ -35,21 +36,17 @@ header {
     margin: 0 auto;
     
 }
+
 footer {
     background-color:grey;
     padding: 1em;
     color: aliceblue;
 }
-@media (max-width: 550px){
-
-}
+ 
 @media  (min-width:768px) {
     .flex-container {
         display: flex;
         max-width: 850px;
         margin:0 auto;        
     }
-}
-@media (min-width: 1440px){
-    
 }

@@ -42,7 +42,6 @@ footer {
     padding: 1em;
     color: aliceblue;
 }
-<<<<<<< HEAD
 @media  (min-width:768px) {
     .flex-container {
         display: flex;
@@ -55,14 +54,4 @@ footer {
         max-width: 1024px;
         margin: auto;
     }
-    
-=======
- 
-@media  (min-width:768px) {
-    .flex-container {
-        display: flex;
-        max-width: 850px;
-        margin:0 auto;        
-    }
->>>>>>> a455ae9c182604ce8d5b553597497a5526bda408
 }
